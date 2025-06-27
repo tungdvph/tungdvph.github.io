@@ -47,8 +47,6 @@ function setupInteractions() {
   // Social links click tracking and effects
   socialLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
-      e.preventDefault()
-
       const platform = this.dataset.platform
 
       // Add click effect
